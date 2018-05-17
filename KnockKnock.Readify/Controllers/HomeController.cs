@@ -10,7 +10,7 @@ namespace KnockKnock.Readify.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Knock Knock Redify";
 
             return View();
         }

@@ -18,6 +18,10 @@ namespace KnockKnock.Readify
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //Hide message details
+            var config = GlobalConfiguration.Configuration;
+            config.IncludeErrorDetailPolicy = IncludeErrorDetailPolicy.Never;
         }
     }
 }
